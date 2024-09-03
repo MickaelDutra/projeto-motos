@@ -1,0 +1,234 @@
+/* Paleta de cores do site
+#F2B885
+#eb8100
+#0D0D0D
+#e4e4e4
+*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2,
+h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+header {
+    background-color: #0D0D0D;
+    color: white;
+    padding: 16px;
+}
+
+
+header h1 {
+    color: #eb8100;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+    align-items: center;
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+}
+
+header li a img {
+    height: 32px;
+}
+
+header .container,
+section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .container {
+    align-items: center;
+}
+
+section {
+    color: #0D0D0D;
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    margin-left: 24px;
+}
+
+section p {
+    margin-bottom: 8px;
+    margin-left: 24px;
+}
+
+#about {
+    background-color: #e4e4e4;
+}
+
+#motorcycle {
+    background-color: #0D0D0D;
+    color: #eb8100;
+}
+
+.motorcycle-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.motorcycle-list p {
+    text-align: center;
+    display: block;
+
+}
+
+.motorcycle-list h3 {
+    text-align: center;
+    display: block;
+    margin-bottom: 8px;
+    text-shadow:
+        -1px -1px 0 #000,
+        /* Sombra superior esquerda */
+        1px -1px 0 #000,
+        /* Sombra superior direita */
+        -1px 1px 0 #000,
+        /* Sombra inferior esquerda */
+        1px 1px 0 #000;
+    /* Sombra inferior direita */
+}
+
+.motorcycle-card {
+    background-color: #e4e4e4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.motorcycle-card:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+#contact {
+    display: block;
+    align-items: center;
+    background-color: #e4e4e4;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contact-card {
+    background-color: #eb8100;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-list h2 {
+    padding: 8;
+    margin: 16px 0;
+}
+
+form input,
+textarea,
+button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #0D0D0D;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #eb8100;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #182C61;
+}
+
+footer {
+    background-color: #000000;
+    color: #ecf0f1;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.footer-content {
+    display: block;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+footer h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #eb8100;
+}
+
+footer p,
+footer ul {
+    font-size: 14px;
+}
+
+footer img {
+    height: 24px;
+}
